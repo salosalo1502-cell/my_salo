@@ -1,0 +1,258 @@
+
+.how_work{
+
+
+  margin-top:100px ;
+
+
+
+ }
+
+
+
+ .how_container{
+
+display: flex;
+
+align-items: center;
+
+
+
+margin-top:50px ;
+
+column-gap:15px ;
+
+
+max-width: 1200px;
+
+
+margin:0 auto ;
+
+margin-top: 80px;
+
+text-align: center;
+
+ 
+ }
+
+.spanius{
+
+font-size: 48px;
+  
+
+
+padding:10px 20px; 
+
+border-right:1px solid #1e293b;
+
+border-right: 1px solid rgba(30, 41, 59, 0.3);
+
+ font-size: 72px;
+  font-weight: 100;
+ 
+  
+color: #1e293b;
+
+opacity: 0.9;
+
+
+}
+ 
+ .how_work h2{
+
+text-align: center;
+
+font-weight: 100;
+
+font-size:30px ;
+
+
+
+
+color: #1e293b;
+
+margin-top:223px;
+
+
+ }
+
+
+
+
+
+
+
+
+.icon_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+line-height: 20px;
+
+
+
+margin-top:40px;
+
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+
+
+
+  
+}
+
+
+
+
+
+.content {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: center;
+ 
+margin-top:10px;
+
+
+margin:40px;
+
+
+
+transition: transform 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+
+}
+
+
+.columWrapper{
+
+
+  display: flex;
+
+ justify-content: center;
+
+  align-items: center;
+line-height: 1.9;
+
+column-gap: 10px;
+
+
+text-align: center;
+
+}
+
+
+
+
+
+.content:hover{
+
+ transform: translateY(-6px);
+
+}
+
+
+.content p{
+
+letter-spacing: 1px;
+  
+color: #475569;
+
+line-height:1.9 ;
+
+
+
+}
+
+.content h3{
+
+font-weight: 100;
+
+  
+ 
+color: #1e293b;
+font-size:18px;
+
+letter-spacing:1px ;
+
+
+}
+
+
+
+
+
+.icono{
+background:#B1B1B1;
+
+ width:40px;
+height: 40px;
+
+padding:10px;
+
+
+border-radius:50% ;
+
+
+
+}
+
+
+@media (max-width: 768px) {
+
+  .how_work {
+    margin-top: 40px;
+  }
+
+  .how_work h2 {
+    font-size: 22px;
+    margin-top: 60px;
+    padding: 0 10px;
+  }
+
+  .how_container {
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 40px;
+    padding: 0 16px;
+  }
+
+  .spanius {
+    font-size: 40px;
+    padding: 6px 12px;
+    border-right: none;
+    border-bottom: 1px solid rgba(30, 41, 59, 0.3);
+    margin-bottom: 10px;
+  }
+
+  .columWrapper {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .icon_wrapper {
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .content {
+    margin: 20px 0;
+  }
+
+  .content h3 {
+    font-size: 16px;
+  }
+
+  .content p {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .icono {
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+  }
+}

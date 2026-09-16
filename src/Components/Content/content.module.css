@@ -1,0 +1,338 @@
+
+
+
+
+
+.Content {
+  position: relative;
+  overflow: hidden;
+
+
+
+
+
+
+}
+
+/* შენი container */
+.container {
+  position: relative;
+
+background: linear-gradient(
+to bottom,
+rgba(0,0,0,0) 0%,
+rgba(0,0,0,0.75) 100%
+);
+
+
+
+
+}
+
+
+
+/* image layer */
+
+
+.overlay {
+  position: relative;
+  min-height:87vh;
+
+  
+  overflow: hidden;
+}
+
+.content_image img {
+  width: 100%;
+  height: 90vh;
+
+  object-fit: cover;
+overflow: hidden;
+  display: block;
+}
+
+
+.overlay::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+
+
+
+
+
+ .content_speach {
+position: absolute;
+  bottom: 10%;
+  left:50%;
+  transform: translateX(-50%);
+  max-width: 500px;
+
+display: flex;
+flex-direction: column;
+text-align: center;
+line-height:60px;
+color:white;
+transform: translateX(20px);
+padding-bottom: 60px;
+
+z-index:12 ;
+
+}
+
+.content_btn {
+  
+ display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px; 
+}
+
+.content_btn_first {
+  padding: 10px 20px;
+  background:#7A7A7A;
+  border: none;
+  color: white;
+  cursor: pointer;
+
+  transition:0.5s ease;
+}
+
+.content_btn_first:hover{
+
+transform: scale(1.1);
+
+}
+
+
+.content_btn_tvice {
+  padding: 10px 20px;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+background-color:#00c3ff ; 
+ transition:0.5s ease;
+
+
+
+}
+.content_btn_tvice:hover{
+
+transform: scale(1.1);
+
+
+}
+
+.content_programs{
+
+
+text-align: center;
+
+}
+
+.hig_speach{
+
+font-family: "Cormorant Garamond", serif;
+ font-weight:200;
+font-optical-sizing: auto;
+font-size: 60px;
+text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+color: white;
+
+font-size: clamp(50px, 8vw, 62px);
+letter-spacing: 2px;
+
+
+
+
+}
+.content_teach{
+
+text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+font-size: 18px;
+font-weight: 300;
+letter-spacing: 2px;
+
+}
+
+.content_programs{
+
+text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+font-size: 18px;
+opacity: 0.8;
+
+
+}
+
+
+
+
+.section {
+  opacity: 0.5;
+  filter: blur(6px) brightness(0.85);
+  transition: opacity 0.6s ease, filter 0.6s ease;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0) brightness(1);
+}
+
+/* =========================
+   MOBILE HERO RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  /* HERO WRAPPER */
+  .overlay {
+    min-height: 100vh;
+  }
+
+  /* HERO IMAGE */
+  .content_image img {
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  /* TEXT BLOCK */
+  .content_speach {
+    width: 90%;
+    max-width: 100%;
+
+    left: 50%;
+    bottom: 8%;
+
+    transform: translateX(-50%);
+
+    padding: 0 10px;
+    line-height: normal;
+  }
+
+  /* MAIN TITLE */
+  .hig_speach {
+    font-size: clamp(34px, 10vw, 48px);
+    line-height: 1.2;
+    letter-spacing: 1px;
+  }
+
+  /* SUBTEXT */
+  .content_teach {
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    margin-top: 14px;
+  }
+
+  /* PROGRAM TEXT */
+  .content_programs {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 10px;
+  }
+
+  /* BUTTON GROUP */
+  .content_btn {
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+
+    margin-top: 25px;
+  }
+
+  /* BUTTONS */
+  .content_btn_first,
+  .content_btn_tvice {
+    width: 100%;
+    max-width: 300px;
+
+    padding: 14px;
+    font-size: 14px;
+
+    border-radius: 10px;
+  }
+
+}
+.overlay::before {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* MOBILE FIX */
+
+
+@media (max-width: 768px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  /* HERO WRAPPER */
+  .overlay {
+    min-height: 115vh;
+  }
+
+  /* HERO IMAGE */
+  .content_image img {
+    width: 100%;
+    height: 115vh;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  /* TEXT BLOCK */
+  .content_speach {
+    width: 90%;
+    max-width: 500px;
+
+    left: 50%;
+    bottom: 50px;
+
+    transform: translateX(-50%);
+
+    padding: 0;
+    line-height: normal;
+  }
+
+  /* MAIN TITLE */
+  .hig_speach {
+    font-size: clamp(34px, 10vw, 48px);
+    line-height: 1.2;
+    letter-spacing: 1px;
+  }
+
+  /* SUBTEXT */
+  .content_teach {
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    margin-top: 14px;
+  }
+
+  /* PROGRAM TEXT */
+  .content_programs {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 10px;
+  }
+
+  /* BUTTON GROUP */
+   .overlay::before {
+    background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.85) 0%,
+      rgba(0, 0, 0, 0.55) 50%,
+      rgba(0, 0, 0, 0.2) 100%
+    );
+  }
+
+}

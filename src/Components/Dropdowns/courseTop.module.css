@@ -1,0 +1,129 @@
+
+
+
+
+
+
+
+.rosanaBox{
+
+
+  max-width:100px ;
+gap:5px;
+  display: flex;
+
+margin:0 auto ;
+
+justify-content: center;
+
+
+
+}
+
+.rosanaBox img{
+
+width:100% ;
+
+
+}
+
+
+
+.course_container{
+
+display: flex;
+
+justify-content: center;
+
+max-width:1000px;
+
+margin:0 auto;
+
+gap:20px;
+margin-top:150px;
+
+}
+
+.course_topSpeach{
+
+max-width:500px;
+line-height: 1.6;
+
+
+ 
+}
+
+.course_topSpeach h2{
+
+font-weight: 100;
+
+font-size:25px ;
+
+
+
+
+
+color: #1e293b;
+
+
+
+
+
+ 
+}
+
+.course_topSpeach p{
+
+color: #475569;
+letter-spacing: 1px;
+  
+color: #475569;
+
+
+
+}
+
+
+.inlineStress{
+width:400px;
+height:1px;
+
+background-color: #1e293b;
+opacity:0.7 ;
+margin:0 auto;
+
+}
+
+@media (max-width: 768px) {
+
+  .course_container {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-top: 60px;
+    padding: 0 16px;
+    text-align: center;
+  }
+
+  .course_topSpeach {
+    max-width: 100%;
+  }
+
+  .course_topSpeach h2 {
+    font-size: 20px;
+  }
+
+  .course_topSpeach p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .rosanaBox {
+    max-width: 80px;
+  }
+
+  .inlineStress {
+    width: 80%;
+    max-width: 250px;
+  }
+}

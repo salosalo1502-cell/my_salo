@@ -1,0 +1,84 @@
+.whyImDoing {
+  margin: 0 auto;
+}
+
+.whyImDoingBlocks {
+  display: flex;
+  max-width: 1200px;
+  justify-content: center;
+  align-items: stretch;
+  gap: 60px;
+  margin: 0 auto;
+  margin-top: 133px;
+}
+
+.whyImDoing p {
+  color: black;
+}
+
+.whyImDoingspeach {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  line-height: 1.6;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+  padding: 35px 20px 15px;
+}
+
+.whyImDoingImage {
+  max-width: 500px;
+}
+
+.whyImDoingImage img {
+  width: 100%;
+  height: 250px;
+}
+
+.whyDspeach {
+  margin: 0 auto;
+  color: #0F172A;
+  letter-spacing: 1px;
+}
+
+.rich {
+  color: #142A97;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .whyImDoingBlocks {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-top: 60px;
+    padding: 0 16px;
+  }
+
+  .whyImDoingspeach {
+    width: 100%;
+    max-width: 100%;
+    padding: 25px 16px;
+    text-align: center;
+  }
+
+  .whyImDoingImage {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .whyImDoingImage img {
+    width: 100%;
+    height: auto;
+  }
+
+  .whyDspeach {
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .whyImDoing {
+    padding: 0 16px;
+  }
+}

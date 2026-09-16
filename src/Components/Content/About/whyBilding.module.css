@@ -1,0 +1,254 @@
+
+.whyBildung{
+
+
+display: flex;
+
+flex-direction: column;
+justify-content:center;
+
+align-items: center;
+
+justify-content: space-between;
+
+max-width:1200px;
+
+margin: 0 auto;
+margin-top:10px;
+ 
+align-items:center ;
+margin-top:5px ;
+gap: 120px;
+
+
+
+
+background: linear-gradient(
+  to bottom right,
+  #f3f4f6,
+  #e5e7eb
+);
+
+background: #F3F4F6;
+
+
+
+}
+
+.whyBildung h2{
+
+text-align: center;
+margin-top:10px;
+font-weight: 100;
+
+font-size:30px ;
+
+
+
+
+
+color: #1e293b;
+
+margin-top:80px ;
+
+
+}
+.whyBildung p{
+
+text-align: center;
+margin-top:5px;
+color: #475569;
+
+
+
+}
+
+.nemo{
+
+
+display: block;
+
+
+text-align: center;
+
+padding-top:50px;
+font-weight: 100;
+
+font-size:60px ;
+
+
+padding:20px 10px;
+
+
+color: #1e293b;
+
+
+
+
+
+}
+
+
+
+.problems_speach h2{
+
+
+ font-size:22px ;
+
+}
+
+
+
+
+
+
+.problemRight p{
+  
+  line-height: 1.9;
+  max-width: 650px;
+color: #475569;
+
+ 
+padding:20px 10px ;
+  padding-top:60px;
+letter-spacing: 1px;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.problems_speach{
+  display: flex;
+  align-items:stretch; /* 🔥 ეს არის მთავარი */
+  justify-content:center;
+
+
+  gap: 40px;
+  margin-top: 80px;
+
+
+  flex:1;
+  
+}
+
+
+
+
+
+
+.problems_image {
+
+  max-width: 500px;
+  height: auto;
+  
+}
+
+.problems_image img{
+width: 100%;
+
+object-fit: cover;
+  
+
+}
+
+
+.problems_speach {
+  display: flex;
+  align-items: stretch;
+  gap: 40px;
+}
+
+.problemRight,
+.problems_image {
+  flex: 1;
+}
+
+.problems_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.problemRight{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+
+.problems_image{
+  display:flex;
+}
+
+.problems_image img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+.problems_speach{
+  align-items:flex-start;
+}
+
+.problemRight h2,
+.problemRight p{
+  margin:0;
+}
+
+@media (max-width: 768px) {
+
+  .whyBildung {
+    gap: 40px;
+    padding: 0 16px;
+    text-align: center;
+  }
+
+  .nemo {
+    font-size: 32px;
+    padding: 10px;
+  }
+
+  .problems_speach {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .problemRight {
+    width: 100%;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .problemRight h2 {
+    font-size: 18px;
+  }
+
+  .problemRight p {
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 10px 0;
+  }
+
+  .problems_image {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .problems_image img {
+    width: 100%;
+    height: auto;
+  }
+}

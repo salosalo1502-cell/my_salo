@@ -1,0 +1,75 @@
+
+
+
+
+
+.registrContainer{
+display:flex ;
+
+flex-direction: column;
+align-items: center;
+gap:5px;
+
+
+max-width:600px ;
+margin: 0 auto;
+margin-top:50px;
+}
+
+form, input{
+
+width: 100%;
+padding: 10px 10px;
+
+margin:5px;
+    
+}
+
+input{
+
+    padding:15px 15px ;
+ }
+
+.salosBtn {
+  padding: 15px;
+  width: 100%;
+  border: none;
+  background-color: #4f46e5;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+
+
+
+}
+
+.salosBtn:hover {
+  background-color: #3730a3;
+  transform: scale(1.03);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+/* 📱 MOBILE */
+@media (max-width: 768px) {
+  .registrContainer {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+
+  input {
+    font-size: 15px;
+    padding: 14px;
+  }
+
+  .salosBtn {
+    font-size: 15px;
+    padding: 14px;
+  }
+}
+

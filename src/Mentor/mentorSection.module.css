@@ -1,0 +1,172 @@
+.mentorSection {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  margin: 0 auto;
+  margin-top: 120px;
+  gap: 20px;
+}
+
+.mentors_container {
+  display: flex;
+  max-width: 1200px;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+  margin: 0 auto;
+}
+
+.mentors_container > div {
+  flex: 1;
+}
+
+.holds {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  line-height: 1.9;
+}
+
+.holds p {
+  font-size: 14px;
+  color: black;
+  font-weight: 200;
+}
+
+.speed {
+  margin-top: 5px;
+  font-size: 12px;
+  line-height: 25px;
+}
+
+.holdsContainer {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1.6;
+}
+
+.mentS {
+  padding: 10px 10px 20px 2px;
+  font-size: 28px;
+}
+
+.line {
+  width: 15px;
+  height: 1px;
+  background: black;
+  margin: 10px 0;
+}
+
+.lineInc {
+  display: flex;
+  gap: 8px;
+  cursor: pointer;
+  color: black;
+  font-size: 16px;
+  line-height: 1.9em;
+}
+
+.rich {
+  color: #142A97;
+  font-weight: bold;
+}
+
+.buttonsSt {
+  display: flex;
+  column-gap: 10px;
+  margin-top: 20px;
+}
+
+.bortOne,
+.bortTwo {
+  min-width: 230px;
+  height: 50px;
+  padding: 0 15px;
+  border-radius: 20px;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.bortOne {
+  color: white;
+  background-color: #142A97;
+  border: none;
+}
+
+.bortTwo {
+  color: black;
+  background: transparent;
+  border: 2px solid #1D4ED8;
+}
+
+.bortOne:hover {
+  background: #B0BEC5;
+}
+
+.bortOne:hover,
+.bortTwo:hover {
+  transform: translateY(-4px);
+}
+
+@media (max-width: 768px) {
+  .mentorSection {
+    padding: 0 16px;
+    gap: 15px;
+    margin-top: 60px;
+    text-align: center;
+  }
+
+  .mentors_container {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .mentors_container > div {
+    width: 100%;
+  }
+
+  .mentS {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .holdsContainer {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .holds {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .speed {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .lineInc {
+    justify-content: center;
+    font-size: 14px;
+  }
+
+  .buttonsSt {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .bortOne,
+  .bortTwo {
+    width: 100%;
+    max-width: 220px;
+  }
+}

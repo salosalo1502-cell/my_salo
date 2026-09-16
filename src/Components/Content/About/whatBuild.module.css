@@ -1,0 +1,396 @@
+
+.what_build{
+
+display: flex;
+ text-align: center;
+align-self: stretch;
+
+max-width:1200px ;
+margin:0 auto ;
+
+margin-top:80px ;
+
+
+}
+
+
+.build_style{
+
+
+text-align: center;
+
+}
+
+
+
+
+
+
+  .buildest_herro{
+
+margin:0 auto ;
+
+text-align: center;
+line-height: 1.9;
+
+
+
+
+
+margin-top:70px ;
+
+
+
+
+
+
+
+  }
+
+.buildest_herro h2{
+
+font-weight: 100;
+
+font-size:30px ;
+
+
+
+
+
+color: #1e293b;
+
+
+margin-top:223px ;
+
+
+
+
+}
+.buildest_herro p{
+
+ letter-spacing: 1px;
+  
+color: #475569;
+
+}
+
+
+
+
+
+
+
+
+.build_container{
+
+max-width:1200px ;
+
+display: flex;
+
+
+justify-content:space-between;
+align-items: center;
+
+margin-top: 80px;
+line-height:30px ;
+
+margin:0 auto ;
+
+
+
+
+
+gap:40px;
+
+margin-top:80px;
+
+margin:0 auto ;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+.first{
+
+display: flex;
+flex-direction: column;
+
+align-items: center;
+gap: 10px;
+text-align: center;
+line-height: 1.9;
+
+
+}
+
+.first h3{
+
+font-weight: 100;
+
+
+letter-spacing:1px ;
+
+
+
+
+color: #1e293b;
+
+
+
+}
+
+.first p{
+
+letter-spacing: 1px;
+  
+color: #475569;
+
+
+}
+
+
+
+
+
+
+.second{
+
+
+display: flex;
+flex-direction: column;
+
+align-items: center;
+gap: 10px;
+text-align: center;
+line-height: 1.9;
+
+
+
+
+}
+
+
+
+.second h3{
+
+font-weight: 100;
+
+letter-spacing:1px ;
+
+
+
+
+
+color: #1e293b;
+
+
+
+}
+
+.second p{
+
+letter-spacing: 1px;
+  
+color: #475569;
+
+
+}
+
+
+.tree{
+
+
+
+display: flex;
+flex-direction: column;
+
+align-items: center;
+gap: 10px;
+
+line-height: 1.9;
+
+
+ 
+
+
+
+}
+
+
+
+.tree h3{
+
+font-weight: 100;
+
+  
+ 
+color: #1e293b;
+font-size:18px;
+
+letter-spacing:1px ;
+
+
+
+}
+
+.tree p{
+
+letter-spacing: 1px;
+  
+color: #475569;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.icons {
+
+ display: flex;
+  align-items: center;
+
+  justify-content: center;
+  
+
+ text-align: center;
+
+width:100% ;
+transition: transform 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+display: flex;
+  align-items: center;
+  gap: 10px;
+  
+
+  
+
+}
+
+
+
+
+
+.icon {
+  background-color: #00c3ff;
+  color: white;
+ padding:10px;
+  border-radius: 50%;
+
+  
+}
+
+
+@media (max-width: 768px) {
+
+  .what_build {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 16px;
+    margin-top: 40px;
+  }
+
+  .buildest_herro h2 {
+    font-size: 22px;
+    margin-top: 60px;
+  }
+
+  .buildest_herro p {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  .build_container {
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 40px;
+  }
+
+  .first,
+  .second,
+  .tree {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .first h3,
+  .second h3,
+  .tree h3 {
+    font-size: 16px;
+  }
+
+  .first p,
+  .second p,
+  .tree p {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+
+  .icons {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .icon {
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.icon{
+ background:#B1B1B1;
+
+ width:40px;
+height: 40px;
+
+
+
+
+border-radius:50% ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

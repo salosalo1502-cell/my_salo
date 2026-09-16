@@ -1,0 +1,168 @@
+.iconosos{
+
+opacity: 0.5;
+
+
+}
+
+ .ecoSistems{
+
+display: flex;
+max-width:1200px ;
+margin-top: 70px;
+justify-content:center ;
+
+
+gap:40px ;
+
+
+margin:0 auto ;
+
+margin-top: 100px;
+
+
+
+
+line-height:30px ;
+
+}
+
+
+
+.ecoSistems h3{
+
+color: #1e293b;
+
+}
+
+
+
+
+.ecos_clinner{
+
+display: flex;
+flex-direction: column;
+
+align-items: center;
+
+
+gap:10px;
+transition: transform 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+
+
+
+}
+
+.ecos_clinner:hover{
+
+transform: translateY(-6px);
+
+
+}
+
+.ecos_clinner p{
+
+
+ font-size: 14px;
+  line-height: 1.9;
+  color: #4B5563;
+
+  letter-spacing:1px ;
+
+
+
+
+}
+
+
+.ecoSistems_container{
+display: flex;
+column-gap:40px ;
+align-items: flex-start;
+
+max-width:1200px ;
+
+}
+
+
+
+
+
+.iconi{
+background:#B1B1B1;
+
+ width:40px;
+height: 40px;
+
+padding:10px;
+
+
+border-radius:50% ;
+
+
+
+}
+
+.srtategi h2{
+
+color: #1e293b;
+
+
+
+}
+
+.srtategi p{
+
+ font-size: 16px;
+  line-height: 1.9;
+  color: #4B5563;
+
+  letter-spacing:1px ;
+
+
+
+}
+@media (max-width: 768px) {
+
+  .ecoSistems {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-top: 60px;
+    padding: 0 16px;
+  }
+
+  .ecoSistems_container {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    width: 100%;
+  }
+
+  .ecos_clinner {
+    width: 100%;
+    text-align: center;
+  }
+
+  .ecos_clinner p {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+
+  .srtategi h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .srtategi p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .iconi {
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+  }
+}

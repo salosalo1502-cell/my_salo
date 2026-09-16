@@ -1,0 +1,377 @@
+
+
+/* style.course_top*/
+
+
+
+
+
+
+
+ /*end off part*/    
+
+
+
+/*<div className={style.SubblockContainer}>*/  
+
+
+
+
+/*end off part*/    
+
+
+
+
+
+
+/* SECTION */
+.courseSection {
+  width: 100%;
+  margin-top:15px;
+
+
+
+
+}
+
+/* CONTAINER */
+.courseContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  
+}
+
+/* CARDS WRAPPER */
+.courseCards {
+  display: flex;
+  justify-content: space-between;
+  gap: 35px; /* 👈 მეტი სივრცე cards შორის */
+  flex-wrap: wrap;
+
+ 
+}
+
+/* CARD */
+.courseCard {
+  flex: 1;
+  min-width: 320px;
+  max-width: 380px;
+
+ 
+
+background:#ECEFF3;
+
+  
+  padding: 28px; /* 👈 მეტი შიდა ჰაერი */
+
+  display: flex;
+  flex-direction: column;
+  gap: 18px; /* 👈 ტექსტებს შორის ჰაერი */
+
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+
+  
+}
+
+
+
+/* TOP */
+.courseCardSubtitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 8px; /* 👈 ჰაერი ქვემოთ */
+}
+
+/* ICON */
+.icoiosis {
+  color: #4f46e5;
+  flex-shrink: 0;
+}
+
+/* BADGE */
+.courseCardBtn {
+  padding: 6px 14px;
+  border: none;
+  border-radius: 999px;
+  background: #eef2ff;
+  color: #6b7280;
+  font-size: 12px;
+  font-weight: 600;
+  width: fit-content;
+}
+
+/* TITLE + TEXT */
+.courseCardspeach h3 {
+  font-size: 19px;
+  font-weight: 200;
+  margin-bottom: 6px;
+color:#0F172A
+
+}
+
+.courseCardspeach p {
+  font-size: 14px;
+  color: #6b7280;
+  line-height: 1.6;
+}
+
+/* ICON ROW */
+.courseCardIcons {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px; /* 👈 აი აქ მთავარი fix */
+  flex-wrap: wrap;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* EACH ICON BLOCK */
+.courseCardIcons div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 6px 10px;
+  border-radius: 10px;
+  background: #f9fafb; /* 👈 პატარა ფონური ჰაერი */
+}
+
+/* TEXT INSIDE ICONS */
+.courseCardIcons span {
+  font-size: 13px;
+  color: #374151;
+}
+
+/* LINK */
+.courseCardSpan {
+  margin-top: 10px;
+  text-align: right;
+}
+
+.courseCardSpanOpen {
+
+background-color:#387896;
+padding:10px 10px;
+  color:white;
+ font-weight: 600;
+  cursor: pointer;
+  
+
+  font-size: 14px;
+}
+
+.courseCardSpanOpen:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+
+
+
+.sumkutxas{
+
+
+  max-width: 600px;
+}
+.sumkutxas img{
+  width: 100%;
+  height: 240px;
+ 
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+
+
+
+.overlaysx {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.75);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+padding: 30px  30px 50px; 
+  z-index: 99999;
+}
+
+.modalat {
+  width: min(900px, 90vw);
+  max-height: 90vh;
+  overflow-y: auto;
+
+  background: #111827;
+  color: white;
+
+  padding: 30px ;
+}
+
+
+.modalat h3{
+  font-size: 28px;
+  font-weight: 700;
+  color: #0094AF;
+  margin-bottom: 20px;
+}
+
+
+.modalat li{
+  color: white;
+  line-height: 1.2;
+
+font-size:14px;
+
+  margin-bottom: 12px;
+}
+
+.modalat {
+  width: min(1000px, 92vw);
+  max-height: 90vh;
+background: rgba(0,0,0,0.75);
+ 
+
+  color: #0F172A;
+
+  padding: 50px;
+
+ 
+
+  overflow-y: auto;
+
+  box-shadow: 0 30px 80px rgba(0,0,0,0.25);
+}
+
+.modalat {
+  width: min(900px, 90vw);
+  max-height: 90vh;
+  overflow-y: auto;
+
+  background: #111827;
+  color: white;
+  padding: 30px;
+
+  animation: modalOpen 0.35s ease;
+}
+
+
+@keyframes modalOpen {
+  from {
+    transform: translateY(-60px);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+
+
+
+.descKa {
+  font-size: 18px;
+  line-height: 1.7;
+ color: #E5E7EB; /* რბილი თეთრი */
+  margin-top: 8px;
+  max-width: 600px;
+}
+
+.courseCardSpanClosed{
+
+ background-color: #0094AF;
+color:white;
+
+
+ width: 200px;
+ padding: 10px 10px;
+
+
+}
+
+
+
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+
+  /* SECTION WRAPPER */
+  .courseContainer {
+    padding: 0 16px;
+  }
+
+  /* CARDS STACK */
+  .courseCards {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  /* CARD */
+  .courseCard {
+    width: 100%;
+    max-width: 100%;
+    min-width: unset;
+    padding: 20px;
+  }
+
+  /* TITLE */
+  .courseCardspeach h3 {
+    font-size: 16px;
+  }
+
+  .courseCardspeach p {
+    font-size: 13px;
+  }
+
+  /* ICON ROW */
+  .courseCardIcons {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .courseCardIcons div {
+    width: 100%;
+  }
+
+  /* BUTTON */
+  .courseCardSpan {
+    text-align: center;
+  }
+
+  .courseCardSpanOpen {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  /* IMAGE */
+  .sumkutxas img {
+    height: auto;
+  }
+
+  /* MODAL */
+  .modalat {
+    width: 95vw;
+    padding: 20px;
+  }
+
+  .modalat h3 {
+    font-size: 20px;
+  }
+
+  .modalat li {
+    font-size: 13px;
+  }
+
+  .descKa {
+    font-size: 14px;
+  }
+
+  .overlaysx {
+    padding: 20px;
+  }
+}
