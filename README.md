@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+ Programming Education Center — Full-Stack Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive website created for a programming education center, combining a clean educational visual identity with a functional full-stack web application.
 
-## Available Scripts
+The project was designed to present programming courses, communicate the center's educational approach, and provide users with an accessible and engaging way to explore the learning environment.
 
-In the project directory, you can run:
+Beyond the visual interface, the project includes a complete backend architecture with API routes, database integration, and server-side functionality.
+ Technologies
 
-### `npm start`
+ Frontend
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* React
+* JavaScript
+* React Router
+* CSS
+* Responsive Web Design
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ Backend
 
-### `npm test`
+* Node.js
+* Express.js
+* MongoDB
+* Mongoose
+* REST API
+* Nodemailer
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ Deployment
 
-### `npm run build`
+* Render
+* MongoDB Atlas
+ Key Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ Frontend & Visual Design
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Designed a clean and modern visual identity for a programming education center.
+* Created responsive layouts for desktop, tablet, and mobile devices.
+* Developed structured course and educational content sections.
+* Implemented responsive navigation and user-friendly page structure.
+* Created an engaging introductory section with animated typography.
+* Focused on visual hierarchy, readability, spacing, and accessibility.
+* Built the interface with React and reusable components.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ Backend & Functionality
 
-### `npm run eject`
+* Developed a Node.js and Express.js backend.
+* Designed REST API routes for frontend communication.
+* Integrated MongoDB for persistent data storage.
+* Used Mongoose for database schemas and data management.
+* Implemented student registration functionality.
+* Added consultation request functionality.
+* Integrated email communication through Nodemailer.
+* Connected the React frontend with the backend API.
+* Structured the application so user data flows from the frontend through API routes and server logic into the database.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+ Full-Stack Integration
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The project demonstrates the complete flow of a full-stack application:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Frontend → API Request → Express Route → Server Logic → MongoDB → Response → Frontend
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This architecture allows the website to function as more than a static educational presentation, providing real data handling and server-side functionality.
+## 🔗 Live Demo
 
-## Learn More
+[**🌐 VIEW LIVE WEBSITE**](https://my-salo-1.onrender.com)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[**💻 VIEW SOURCE CODE**](https://github.com/salosalo1502-cell)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img width="1298" height="579" alt="{883CF0A2-92DD-4127-81BD-E4BF3514B312}" src="https://github.com/user-attachments/assets/1f0441b2-f85d-42bc-9954-67ef60a1f1aa" />
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
