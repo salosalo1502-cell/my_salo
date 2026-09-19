@@ -65,7 +65,7 @@ This architecture allows the website to function as more than a static education
 
 [**💻 VIEW SOURCE CODE**](https://github.com/salosalo1502-cell)
 
-<img width="1298" height="579" alt="{883CF0A2-92DD-4127-81BD-E4BF3514B312}" src="https://github.com/user-attachments/assets/1f0441b2-f85d-42bc-9954-67ef60a1f1aa" />
+
 
 
 
